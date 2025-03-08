@@ -1,0 +1,98 @@
+ body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #9933cc;
+            color: #ffffff;
+            padding: 15px;
+          }
+        
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+        .menu button {
+            background-color: rgba(255, 255, 255, 0.3);
+            border: none;
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        .menu button:hover {
+            background-color: #ff9a8b;
+        }
+        
+        .content {
+            margin: 20px auto;
+            width: 90%;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .vehicles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px;
+        }
+        
+        .vehicle {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .vehicle img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .footer {
+            background-color: #ff6f61;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            font-weight: bold;
+            color: white;
+            margin-top: 20px;
+        }
+        
+       
+        @media only screen and (max-width: 600px) {
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+        
+    
+        }
